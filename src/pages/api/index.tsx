@@ -7,7 +7,7 @@ export default async function handler(
   const { message } = req.body;
 
   const response = await fetch(
-    "https://vercel.com/dangquangthinh1999/chat-gpt-be",
+    "https://chat-gpt-be-pi.vercel.app/",
     {
       method: "POST",
       headers: {
